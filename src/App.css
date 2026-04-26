@@ -176,6 +176,18 @@ h1, h2, h3, h4, h5, h6 {
   .hero-text h1 {
     font-size: 2.5rem;
   }
+
+  /* Footer Mobile */
+  .contact-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .contact-links .divider {
+    display: none;
+  }
 }
 
 /* Section Global */
